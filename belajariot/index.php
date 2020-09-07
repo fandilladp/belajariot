@@ -53,7 +53,7 @@ $result = $conn->query($sql);
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="https://github.com/fandilladp/belajariot/blob/master/README.md">About</a>
                     </li>
                 </ul>
             </div>
