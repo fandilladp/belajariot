@@ -7,7 +7,8 @@
 char ssid[] = "1234578";        // Isi dengan nama profil Wifi
 char pass[] = "susahinitu";            // password wifi
 //char server[] = "192.168.123.1";     // alamat access point yang telah terinstall XAMPP local host
-char server[] = "http://192.168.43.188/belajariot/index.php"; //buka website kamu lalu copy url nya
+//jaringan yang digunakan harus sama dengan laptop yang mengakses website 
+char server[] = "http://192.168.123.1/belajariot/index.php"; //buka website kamu lalu copy url nya
  
 char namaVariabel[] = "Variabel";
 String text = "";
