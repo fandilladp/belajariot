@@ -9,5 +9,10 @@ projek ini memberikan contoh bagaimana anda bisa berinteraksi dengan mikrokontro
 
 #kamu tidak perlu membuat database dalam projek kali ini, karna program akan membuat database secara otomatis, kamu bisa merubah nama database sesuai kebutuhan di dalam function.php
 
+untuk sesuaikan penggunakan mikrokontroler, jika kamu menggunakan arduino + esp silahkan gunakan file arduino, dan 
+jika kamu menggunakan node mcu silahkan gunakan sourcecode di folder nodemcu
+
+semoga berhasil .....
+
 
 
