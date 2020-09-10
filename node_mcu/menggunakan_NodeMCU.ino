@@ -3,11 +3,12 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClient.h>
 
-const char* ssid = "12345678";
-const char* password = "susahiniya";
+const char* ssid = "namawifi";
+const char* password = "password wifi";
 
 //Your Domain name with URL path or IP address with path
-String serverName = "http://192.168.43.188/belajariot/dariArduino.php";
+//ipaddres dari internet yang sama dengan komputer kamu, contoh 192.0.0.122
+String serverName = "http://ip addres kamu /belajariot/dariArduino.php";
 
 // the following variables are unsigned longs because the time, measured in
 // milliseconds, will quickly become a bigger number than can be stored in an int.
@@ -39,7 +40,7 @@ void loop() {
     //Check WiFi connection status
     if(WiFi.status()== WL_CONNECTED){
       HTTPClient http;
-
+//mengirim data
       String serverPath = serverName + "?variabel=data2&nilai=100";
       
       // Your Domain name with URL path or IP address with path
