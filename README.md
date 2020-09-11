@@ -8,15 +8,15 @@ projek ini memberikan contoh paling sederhana bagaimana anda bisa berinteraksi d
   2. arduino ide 
   3. text editor
 
-# kamu tidak perlu membuat database dalam projek kali ini, karna program akan membuat database secara otomatis, kamu bisa merubah nama database sesuai kebutuhan di dalam function.php
+kamu tidak perlu membuat database dalam projek kali ini, karna program akan membuat database secara otomatis, kamu bisa merubah nama database sesuai kebutuhan di dalam function.php
 
-untuk sesuaikan penggunakan mikrokontroler, jika kamu menggunakan arduino + esp silahkan gunakan file arduino, dan 
+untuk penyesuaian penggunaan mikrokontroler, jika kamu menggunakan arduino + esp silahkan gunakan file arduino, dan 
 jika kamu menggunakan node mcu silahkan gunakan sourcecode di folder nodemcu
 
 saran gunakan node mcu karna penggunaannya lebih mudah  :)
 semoga berhasil .....
 
-jika kamu sudah bisa memahami projek ini kamu bisa melanjutkannya menggunakan framework dan menggunakan rest full API pertukaran datanya
+jika kamu sudah bisa memahami projek ini kamu bisa melanjutkannya menggunakan framework dan menggunakan RestFull API pertukaran datanya
 
 # mengenal Rest
 REST (REpresentational State Transfer) merupakan standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Umumnya menggunakan HTTP (Hypertext Transfer Protocol) sebagai protocol untuk komunikasi data. REST pertama kali diperkenalkan oleh Roy Fielding pada tahun 2000.
